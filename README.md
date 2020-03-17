@@ -20,7 +20,7 @@ stm32f103zet6
 
 ### **原理图：**
 
-![1584437786661](E:\uart\uart_hub_sonar\res\1584437786661.png)
+![1584437786661](https://github.com/jinmenglei/uart_hub_sonar/blob/master/res/1584437786661.png)
 
 ### **超声波用的这个：**
 
