@@ -1,5 +1,7 @@
 # uart_hub_sonar
 
+本工程使用stm32cubemx 创建
+
 DYP-A02-V2.0 超声波雷达hub
 
 
