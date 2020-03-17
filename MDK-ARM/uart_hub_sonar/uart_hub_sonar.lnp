@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"uart_hub_sonar\startup_stm32f103xe.o"
+"uart_hub_sonar\main.o"
+"uart_hub_sonar\gpio.o"
+"uart_hub_sonar\usart.o"
+"uart_hub_sonar\stm32f1xx_it.o"
+"uart_hub_sonar\stm32f1xx_hal_msp.o"
+"uart_hub_sonar\stm32f1xx_hal_gpio_ex.o"
+"uart_hub_sonar\stm32f1xx_hal_tim.o"
+"uart_hub_sonar\stm32f1xx_hal_tim_ex.o"
+"uart_hub_sonar\stm32f1xx_hal_uart.o"
+"uart_hub_sonar\stm32f1xx_hal.o"
+"uart_hub_sonar\stm32f1xx_hal_rcc.o"
+"uart_hub_sonar\stm32f1xx_hal_rcc_ex.o"
+"uart_hub_sonar\stm32f1xx_hal_gpio.o"
+"uart_hub_sonar\stm32f1xx_hal_dma.o"
+"uart_hub_sonar\stm32f1xx_hal_cortex.o"
+"uart_hub_sonar\stm32f1xx_hal_pwr.o"
+"uart_hub_sonar\stm32f1xx_hal_flash.o"
+"uart_hub_sonar\stm32f1xx_hal_flash_ex.o"
+"uart_hub_sonar\stm32f1xx_hal_exti.o"
+"uart_hub_sonar\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "uart_hub_sonar\uart_hub_sonar.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "uart_hub_sonar.map" -o uart_hub_sonar\uart_hub_sonar.axf
